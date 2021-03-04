@@ -3,6 +3,7 @@ package practice;
 public class Thread_Demo implements Runnable{
 	public String name;
 	Thread myThread;
+	
 	Thread_Demo(String name1){
 		this.name = name1;
 	}

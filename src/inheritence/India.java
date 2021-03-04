@@ -10,7 +10,7 @@ public class India extends Asia_superclass{
 	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		Asia_superclass a = new Asia_superclass();
 		a.voter();

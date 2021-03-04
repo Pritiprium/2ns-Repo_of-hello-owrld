@@ -15,6 +15,7 @@ public class Read_write_permission {
 		FileWriter fw = new FileWriter(nfile,true);
 		BufferedWriter bw = new BufferedWriter(fw);
 		String ntext = "writing new sentence here";
+		//bw.write("hello world");
 		bw.write(ntext);
 		System.out.println("permission to read and write");
 		nfile.setReadable(true);

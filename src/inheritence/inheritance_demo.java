@@ -2,7 +2,6 @@ package inheritence ;
 public class inheritance_demo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		B obj = new B();
 //		obj.i =1;

@@ -15,10 +15,10 @@ public class Readingproperties {
 		// TODO Auto-generated method stub
 		//System.getProperty("user.dir") +
 String filepath =System.getProperty("user.dir") + "/src/HWDay11/object.properties";
-	Properties pr = new Properties();
+	Properties prop = new Properties();
 	FileInputStream fi = new FileInputStream(filepath);
-	pr.load(fi);
-	System.getProperties().putAll(pr);
+	prop.load(fi);
+	System.getProperties().putAll(prop);
 	System.out.println("Property value of Username   "+ System.getProperty("username"));
 	String empty ="";	
 	
@@ -34,11 +34,12 @@ String filepath =System.getProperty("user.dir") + "/src/HWDay11/object.propertie
 	
 	FileReader fr = new FileReader(filepath);
 	BufferedReader br = new BufferedReader(fr);
+	System.out.println("file Elements are:-->");
 	while ((empty = br.readLine()) != null) {
-		System.out.println(" file elements are:" + empty);
+		System.out.println(empty);
 	}
 
-
+br.close();
 
 
 

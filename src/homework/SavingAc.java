@@ -1,17 +1,8 @@
 package homework;
 
-public class SavingAc extends Account implements Entry {
-	double balance = 0;
+public class SavingAc extends Account implements Entry, Flight{
 
-	SavingAc(double balance) {
-		this.balance = balance;
-	}
-
-	@Override
-	public double withdrawAmount(double amount) {
-		return 0;
-
-	}
+	
 
 	@Override
 	public double makePayment() {
@@ -19,4 +10,27 @@ public class SavingAc extends Account implements Entry {
 		return 0;
 	}
 
+	public double withdrawAmount(Object amount) {
+		
+		return 0;
+	}
+
+	@Override
+	public void takeoff() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void takedown() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public double withdrawAmount(double amount) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
 }

@@ -11,6 +11,7 @@ package homework;
 
 
 public interface Entry {
+	
 	public double withdrawAmount(double amount);
 	
 	public double makePayment ();
